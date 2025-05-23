@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const cookieParser = require('cookie-parser');
-const authRoutes = require('./routes/auth');
-const sessionRoutes = require('./routes/session');
-const userRoutes = require('./routes/user');
-const chatRoutes = require('./routes/chatRoutes');
-const voiceRoutes = require('./routes/voiceRoutes');
+const authRoutes = require('../src/routes/auth');
+const sessionRoutes = require('../src/routes/session');
+const userRoutes = require('../src/routes/user');
+const chatRoutes = require('../src/routes/chatRoutes');
+const voiceRoutes = require('../src/routes/voiceRoutes');
 
 dotenv.config();
 
