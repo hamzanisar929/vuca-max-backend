@@ -2,10 +2,11 @@
   "name": "ai-interaction-backend",
   "version": "1.0.0",
   "description": "Backend for AI voice & text interaction website",
-  "main": "src/app.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "vercel-build": "echo 'Building...'"
   },
   "keywords": [
     "ai",
